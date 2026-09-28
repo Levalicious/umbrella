@@ -14,7 +14,7 @@ all:V:
 	for d in $DIRS; do (cd $d && mk all) || exit 1; done
 
 test:V: all
-	for t in eezoc/tests/e2e.sh eezoc/tests/modes.sh eezoc/tests/gc_regress.sh eezoc/tests/io.sh eezoc/tests/xbcl.sh eezott/tests/eezott.sh; do bash $t || exit 1; done
+	for t in eezoc/tests/e2e.sh eezoc/tests/modes.sh eezoc/tests/gc_regress.sh eezoc/tests/stream.sh eezoc/tests/io.sh eezoc/tests/xbcl.sh eezott/tests/eezott.sh; do bash $t || exit 1; done
 
 install:V: all
 	for d in $DIRS; do (cd $d && mk install) || exit 1; done
