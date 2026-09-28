@@ -1,0 +1,15 @@
+[submodule "libeezo"]
+	path = libeezo
+	url = https://github.com/Levalicious/libeezo.git
+[submodule "eezo"]
+	path = eezo
+	url = https://github.com/Levalicious/eezo.git
+[submodule "eezoc"]
+	path = eezoc
+	url = https://github.com/Levalicious/eezoc.git
+[submodule "eezott"]
+	path = eezott
+	url = https://github.com/Levalicious/eezott.git
+[submodule "stdlib"]
+	path = stdlib
+	url = https://github.com/Levalicious/stdlib.git
